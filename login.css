@@ -1,0 +1,156 @@
+html,body{
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-color: #0d1117 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.title{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 35px;
+    margin-bottom: 40px !important;
+    
+}
+
+.loginCard{
+    width: 23rem;
+    background-color: #161b22 !important;
+    border: 2px solid #292e35 !important;
+}
+
+.changeMenu{
+    margin-top: 20px;
+    width: 23rem;
+    background-color: #0d1117 !important;
+    border: 2px solid #292e35 !important;
+    color: white;
+}
+
+.signupMenu{
+    text-align: center ;
+}
+
+input{
+    background-color: #0d1117  !important;
+    border: 1px solid #292e35 !important;
+    color: white !important;
+}
+.label{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.signupLabel{
+    margin-top: 10px !important;
+}
+
+
+
+.split-para{ 
+    display:block;
+    margin:10px;
+    margin-left: 0px;
+    color: white;}
+
+
+.split-para span {
+    font-size: 18px;
+    display:block;
+    float:right;
+    width:44%;
+    margin-left:5px;
+    color: white;
+}
+
+.linkText{
+    
+    text-decoration: none !important;
+}
+
+.loginButton{
+    margin-top: 20px;
+    width: 100% !important;
+    background-color: #238636 !important;
+}
+
+.alert{
+    width: 23rem;
+    border: 2px solid red !important;
+    background-color: rgba(255, 0, 0, 0.1) !important;
+    color: white !important;
+}
+.closeButton{
+    float: right;
+    color: red;
+    cursor: pointer;
+}
+.closeButton:hover{
+    color: rgb(167, 8, 8);
+}
+
+.extraOptions{
+    margin-top: 30px;
+}
+.options{
+    margin-left: 20px;
+    color: #5d646a;
+}
+
+.firstOption{
+    margin-left: 0px !important;
+}
+
+.options:hover{
+    color: #255fbf;
+    cursor: pointer;
+}
+
+body{
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 8px; /* Adjust the width as needed */
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #413f3f; /* Grey color for the thumb */
+  }
+
+  .scroll-container {
+    padding-right: 16px; /* Adjust based on the scrollbar width */
+  }
+
+@media only screen and (max-device-width: 600px){
+    .loginCard,.changeMenu{
+        width: 20rem;
+    }
+    .split-para span{
+        font-size: 14px;
+    }
+    .alert{
+        width: 20rem;
+    }
+}
+
+
+
+
+
+
